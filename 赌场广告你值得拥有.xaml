@@ -1,0 +1,29 @@
+<TextBlock FontSize="72" Width="350" Height="100" x:Name="tb">
+    <TextBlock.Triggers>
+        <EventTrigger RoutedEvent="TextBlock.Loaded">
+            <EventTrigger.Actions>
+                <BeginStoryboard>
+                    <Storyboard Duration="0:0:0.6" 
+                                RepeatBehavior="Forever" 
+                                Storyboard.TargetName="tb">
+                        
+                        <StringAnimationUsingKeyFrames Storyboard.TargetProperty="Text">
+                            <DiscreteStringKeyFrame Value="性感软粉" KeyTime="0.0:0"/>
+                            <DiscreteStringKeyFrame Value="在线发♂牌" KeyTime="0:0:0.30"/><!--在此处写下文字-->
+                        </StringAnimationUsingKeyFrames>
+                        <!--此处更改颜色-->
+                        <ColorAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground.Color">
+                            <DiscreteColorKeyFrame Value="Red" KeyTime="0:0:0.0" />
+                            <DiscreteColorKeyFrame Value="Orange" KeyTime="0:0:0.1" />
+                            <DiscreteColorKeyFrame Value="Yellow" KeyTime="0:0:0.2"/>
+                            <DiscreteColorKeyFrame Value="Green" KeyTime="0:0:0.3"/>
+                            <DiscreteColorKeyFrame Value="Blue" KeyTime="0:0:0.4"/>
+                            <DiscreteColorKeyFrame Value="DarkBlue" KeyTime="0:0:0.5"/>
+                            <DiscreteColorKeyFrame Value="Purple" KeyTime="0:0:0.6"/>
+                        </ColorAnimationUsingKeyFrames>
+                    </Storyboard>
+                </BeginStoryboard>
+            </EventTrigger.Actions>
+        </EventTrigger>
+    </TextBlock.Triggers>
+</TextBlock>
