@@ -1,0 +1,12 @@
+<GroupBox Header="" BorderBrush="{DynamicResource ColorBrush3}">
+    <Grid UseLayoutRounding="True" Margin="10,10,10,10">
+    <Grid.ColumnDefinitions>
+    <ColumnDefinition Width="20*">
+    </ColumnDefinition>
+    <ColumnDefinition Width="10*">
+    </ColumnDefinition>
+    <ColumnDefinition Width="10*">
+    </ColumnDefinition>
+    </Grid.ColumnDefinitions>
+    </Grid>
+    </GroupBox>
