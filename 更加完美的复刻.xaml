@@ -1,0 +1,42 @@
+<local:MyCard Title="" Margin="0,0,0,0" CanSwap="True">
+    <StackPanel Margin="15,15,15,15">
+       <Border CornerRadius="15" BorderBrush="#FF996633" BorderThickness="5" Width="520" Height="290">
+       <Border.Background>
+                     <ImageBrush ImageSource="https://ltwmeme.cakemc.top/img/no-ready.jpg" />
+              </Border.Background>
+       </Border>
+       <Border BorderBrush="#FF996633" BorderThickness="4" 
+              x:Name="verBorder" Margin="0,-25,0,0" Background="#FF996633" Width="160" Height="50" CornerRadius="12">
+              <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" TextAlignment="Center" TextWrapping="Wrap" Text="" FontSize="33" Foreground="{DynamicResource ColorBrush7}" Width="160"/>
+		</Border>
+              <local:MyTextButton Margin="0,-55,10,0" Width="160" Height="60"  Padding="13,-31,0,0 "  FontSize="30" Foreground="#FF5b58ff" HorizontalAlignment="Center"
+             Text="." EventType="打开网页" EventData="" ToolTip="" />
+	
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,0" FontSize="10"
+                   Text="                         " />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,0" FontSize="30" HorizontalAlignment="Center" Foreground="#FF996633" FontFamily="华文行楷"
+                   Text=" " />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,0" FontSize="8"
+                   Text="                         " />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,2" FontSize="30" HorizontalAlignment="Center" Foreground="#FF996633" FontFamily="华文行楷"
+                   Text="  " />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,2" FontSize="8"
+                   Text="                         " />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,2" FontSize="30" HorizontalAlignment="Center" Foreground="#FF996633" FontFamily="华文行楷"
+                   Text=" " />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,2" FontSize="8"
+                   Text="                         " />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,2" FontSize="30" HorizontalAlignment="Center" Foreground="#FF996633" FontFamily="华文行楷"
+                   Text="  " />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,2" FontSize="8"
+                   Text="                         " />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,2" FontSize="30" HorizontalAlignment="Center" Foreground="#FF996633" FontFamily="华文行楷"
+                   Text="  " />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,2" FontSize="8"
+                   Text="  " />
+        
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,2" FontSize="8"
+                   Text="   " />
+        
+    </StackPanel>
+</local:MyCard>
